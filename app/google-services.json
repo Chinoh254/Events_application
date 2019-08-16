@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "790414859880",
+    "firebase_url": "https://events-corner-eda0b.firebaseio.com",
+    "project_id": "events-corner-eda0b",
+    "storage_bucket": "events-corner-eda0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790414859880:android:2211c4abc8ad9718",
+        "android_client_info": {
+          "package_name": "com.vibration.eventsconer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790414859880-m9p8iohtfh5ja22rcqfo8oqrvev3gbhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibration.eventsconer",
+            "certificate_hash": "c358d3c9964e4f5fb9f5b152f248ea97bc5cc603"
+          }
+        },
+        {
+          "client_id": "790414859880-e195n3p4gm1rdi7ectr058kvnr9nrv5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-C3HFUWE-eqXKf2WrURj25rCj_avW3A8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790414859880-e195n3p4gm1rdi7ectr058kvnr9nrv5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

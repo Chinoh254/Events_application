@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tall"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/etFirstNm"
+        android:layout_width="300dp"
+        android:textColor="@color/colorElectric"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your First Name"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/etSecondNm"
+        android:layout_width="300dp"
+        android:textColor="@color/colorElectric"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Second Name"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="300dp"
+        android:textColor="@color/colorElectric"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Email Address"
+        android:inputType="textEmailAddress" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="300dp"
+        android:textColor="@color/colorElectric"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/etConfirmPass"
+        android:layout_width="300dp"
+        android:textColor="@color/colorElectric"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm your password"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_gravity="center"
+        android:textColor="@color/colorElectric"
+        android:background="@color/colorLime"
+        android:layout_width="200dp"
+        android:onClick="RegisterUser"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/tvLogIn"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToLogin"
+        android:text="Already Have An Account? Please LogIn"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
